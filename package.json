@@ -1,0 +1,26 @@
+{
+  "name": "otoyeet",
+  "version": "1.0.0",
+  "type": "module",
+  "packageManager": "yarn@4.9.1",
+  "scripts": {
+    "build": "tsc && ./resources/dist.sh",
+    "clean": "rm -rf ./dist",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix",
+    "lint:md": "markdownlint-cli2 '**/*.md' '#node_modules'",
+    "typecheck": "tsc --noEmit",
+    "translate": "./resources/translate.sh",
+    "package": "./resources/package.sh"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@girs/gnome-shell": "^48.0.0",
+    "@tsconfig/recommended": "^1.0.10",
+    "@typescript-eslint/parser": "^8.57.1",
+    "eslint": "^10.1.0",
+    "globals": "^17.4.0",
+    "markdownlint-cli2": "^0.17.0",
+    "typescript": "^5.8.3"
+  }
+}
