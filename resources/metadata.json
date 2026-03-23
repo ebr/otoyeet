@@ -1,0 +1,14 @@
+{
+  "name": "Otoyeet",
+  "description": "Distributes windows of the current application across workspaces",
+  "uuid": "otoyeet@goodbot.dev",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48"
+  ],
+  "url": "https://github.com/ebr/otoyeet",
+  "version": 1,
+  "gettext-domain": "otoyeet"
+}

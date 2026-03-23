@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.otoyeet" path="/org/gnome/shell/extensions/otoyeet/">
+    <key name="activate-shortcut" type="as">
+      <default><![CDATA[['<Super>=']]]></default>
+      <summary>Keyboard shortcut to activate otoyeet</summary>
+      <description>Keyboard shortcut to distribute windows across workspaces</description>
+    </key>
+    <key name="focus-after-move" type="b">
+      <default>true</default>
+      <summary>Focus window after moving</summary>
+      <description>Whether to focus a window after moving it to a new workspace</description>
+    </key>
+    <key name="switch-to-first" type="b">
+      <default>true</default>
+      <summary>Switch to first workspace</summary>
+      <description>Switch to the first workspace after spreading windows</description>
+    </key>
+  </schema>
+</schemalist>
